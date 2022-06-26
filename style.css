@@ -12,6 +12,7 @@ body {
   --sC: #fff;
   --box: #dfe0e3;
   --h: #333;
+  --box_h:#663399;
 }
 
 body.dark {
@@ -20,6 +21,7 @@ body.dark {
   --sC: #242526;
   --box: #3a3b3c;
   --h: #fafafa;
+  --box_h: #fafafa;
 }
 
 body {
@@ -200,6 +202,6 @@ input:checked + .slider:before {
 }
 
 .box a:hover {
-  background: #fff;
-  color: #663399;
+  background: var(--sC);
+  color: var(--box_h);
 }
